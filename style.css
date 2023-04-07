@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap');
+
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-Dark-Blue: hsl(234, 12%, 34%);
+    --grayish-Blue: hsl(229, 6%, 66%);
+    --very-Light-Gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--very-Light-Gray);
+}
+
+header{
+    text-align: center;
+    padding: 1rem 1.5rem;
+}
+
+header .title{
+    color: var(--grayish-Blue);
+    font-weight: 400;
+}
+
+header .title span{
+    display: block;
+    color: var(--very-Dark-Blue);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+header .description{
+    color: var(--grayish-Blue);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+main div{
+    flex: 1;
+}
+
+main .card{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 10px var(--grayish-Blue);
+}
+
+main .supervisor{
+    border-top: 5px solid var(--cyan);
+}
+
+main .team-builder{
+    border-top: 5px solid var(--red);
+}
+
+main .karma{
+    border-top: 5px solid var(--orange);
+}
+
+main .calculator{
+    border-top: 5px solid var(--very-Dark-Blue);
+}
+
+main .card-title{
+    color: var(--very-Dark-Blue);
+}
+
+main .card-desc{
+    color: var(--grayish-Blue);
+    padding: 1rem 0;
+}
+
+main .card-img{
+    float: right;
+}
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main .container .card{
+    flex: 1;
+}
+
+footer{
+    color: var(--grayish-Blue);
+    margin-bottom:1rem;
+    text-align: center;
+}
+
+footer a{
+    color: var(--very-Dark-Blue);
+    text-decoration:none ;
+}
+
+@media screen and (max-width:700px) {
+    header .title{
+        font-size: 1.2rem;
+    }
+
+    main{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
